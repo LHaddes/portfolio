@@ -62,6 +62,7 @@ a:active {
 .about{
     /*background-color:#44485B;*/
     background-color: #D8D8D8;
+    border: solid #C65252 2px;
     margin: 20px; /*décalage par rapport à la page entière*/
     padding: 10px;  /*décalage dans la boîte*/
     box-sizing: content-box;
@@ -79,6 +80,7 @@ a:active {
 .skills{
     /*background-color:#44485B;*/
     background-color: #D8D8D8;
+    border: solid #C65252 2px;
     padding: 10px;
     margin: 20px;
     box-sizing: content-box;
@@ -87,6 +89,7 @@ a:active {
 .projects{
     /*background-color:#44485B;*/
     background-color: #D8D8D8;
+    border: solid #C65252 2px;
     margin: 20px; /*décalage par rapport à la page entière*/
     padding: 10px;  /*décalage dans la boîte*/
     box-sizing: content-box;
