@@ -40,8 +40,7 @@ h4{
 p{
     margin: 20px;
     /*color: white;*/
-    color: black;
-    font-size: 18px;
+    
 }
 a:link {
   text-decoration: none;
@@ -119,4 +118,43 @@ a:active {
     color: #CA0000;
     font-size: 20px;
 }
-
+.cv{
+    /*background-color:#44485B;*/
+    background-color: #D8D8D8;
+    border: solid #C65252 2px;
+    padding: 10px;
+    margin: 20px;
+    box-sizing: content-box;
+    border-radius: 10px;
+    justify-items: center;
+    text-align: center;
+}
+.cv .cv-button{
+    background-color: #C65252;
+    color: white;
+    font-size: 20px;
+    padding: 12px 40px;
+    border-radius: 10px;
+    border: solid #520505 2px;
+    transition-duration: 0.2s;
+}
+.cv .cv-button:hover{
+    background-color: #ac4747;
+    border: solid #520505 2px;
+}
+.cv .cv-button:focus{
+    outline: none;
+}
+.contact{
+    /*background-color:#44485B;*/
+    background-color: #D8D8D8;
+    border: solid #C65252 2px;
+    margin: 20px; /*décalage par rapport à la page entière*/
+    padding: 10px;  /*décalage dans la boîte*/
+    box-sizing: content-box;
+    border-radius: 10px;
+    display: flex;
+}
+.input{
+    color: yellow;
+}
