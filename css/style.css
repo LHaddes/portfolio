@@ -6,6 +6,8 @@
     }
 }
 
+
+/*TEXT*/
 html{
     /*background-color: #323241;*/
     background-color: #E5E5E5;
@@ -58,6 +60,9 @@ a:active {
   text-decoration: none;
 }
 
+
+
+/*ABOUT*/
 .about{
     /*background-color:#44485B;*/
     background-color: #D8D8D8;
@@ -76,6 +81,9 @@ a:active {
     width: 100%;
     border-radius: 100%; /*arrondi mon image*/
 }
+
+
+/*SKILLS*/
 .skills{
     /*background-color:#44485B;*/
     background-color: #D8D8D8;
@@ -85,6 +93,9 @@ a:active {
     box-sizing: content-box;
     border-radius: 10px;
 }
+
+
+/*CV*/
 .projects{
     /*background-color:#44485B;*/
     background-color: #D8D8D8;
@@ -118,6 +129,9 @@ a:active {
     color: #CA0000;
     font-size: 20px;
 }
+
+
+/*CV*/
 .cv{
     /*background-color:#44485B;*/
     background-color: #D8D8D8;
@@ -145,6 +159,10 @@ a:active {
 .cv .cv-button:focus{
     outline: none;
 }
+
+
+
+/*CONTACT*/
 .contact{
     /*background-color:#44485B;*/
     background-color: #D8D8D8;
@@ -155,6 +173,51 @@ a:active {
     border-radius: 10px;
     display: flex;
 }
-.input{
-    color: yellow;
+.contact_info{
+    margin-bottom: 10px;
 }
+.contact_text{
+    display: block;
+    padding-left: 1rem;    
+}
+.contact .contact-button{
+    background-color: #C65252;
+    color: white;
+    font-size: 20px;
+    padding: 12px 40px;
+    border-radius: 10px;
+    border: solid #520505 2px;
+    transition-duration: 0.2s;
+}
+.contact .contact-button:hover{
+    background-color: #ac4747;
+    border: solid #520505 2px;
+}
+/*
+input[type=text], input[type=email]{
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 5px;
+    width: 300px;
+    height: 25px;
+    background-color: #f8f8f8;
+    font-family: 'Nunito', sans-serif;
+}
+input::placeholder{
+    color: #CA0000;
+}
+textarea{
+    resize: none;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 5px;
+    width: 600px;
+    height: 150px;
+    background-color: #f8f8f8;
+    font-family: 'Nunito', sans-serif;
+}
+textarea::placeholder{
+    color: #CA0000;
+}*/
