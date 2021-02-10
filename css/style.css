@@ -105,9 +105,9 @@ a:active {
     box-sizing: content-box;
     border-radius: 10px;
 }
-.projects .projects-container{
+/*.projects .projects-container{
     text-align: center;
-}
+}*/
 .projects .projects-container .project-image{
     max-width: 300px; /*la taille maximum du container de l'image*/
     max-height: 150px;
@@ -140,14 +140,19 @@ a:active {
     margin: 20px;
     box-sizing: content-box;
     border-radius: 10px;
+    
+}
+/*
+.cv-button-container{
     justify-items: center;
     text-align: center;
-}
+}*/
 .cv .cv-button{
     background-color: #C65252;
     color: white;
     font-size: 20px;
-    padding: 12px 40px;
+    margin: 20px;
+    padding: 20px 50px;
     border-radius: 10px;
     border: solid #520505 2px;
     transition-duration: 0.2s;
@@ -171,12 +176,12 @@ a:active {
     padding: 10px;  /*décalage dans la boîte*/
     box-sizing: content-box;
     border-radius: 10px;
-    display: flex;
+    /*display: flex;*/
 }
-.contact_info{
+.contact-info{
     margin-bottom: 10px;
 }
-.contact_text{
+.contact-text{
     display: block;
     padding-left: 1rem;    
 }
@@ -193,6 +198,13 @@ a:active {
     background-color: #ac4747;
     border: solid #520505 2px;
 }
+.contact-container{
+    display:inline-table;
+    grid-template-columns: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
 /*
 input[type=text], input[type=email]{
     border: none;
