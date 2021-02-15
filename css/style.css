@@ -20,6 +20,7 @@ h1{
     color: #AD0404;
     text-align: center;
     font-size: 40px;
+    font-weight: bold;
 }
 h2{
     margin: 20px;
@@ -43,6 +44,11 @@ p{
     margin: 20px;
     /*color: white;*/
     
+}
+.link{
+    color: #CA0000;
+    margin: 20px;
+    font-size: 20px;
 }
 a:link {
   text-decoration: none;
@@ -80,6 +86,7 @@ a:active {
 .about .pp img{
     width: 100%;
     border-radius: 100%; /*arrondi mon image*/
+    top: 50%;
 }
 
 
@@ -128,6 +135,7 @@ a:active {
 .projects .projects-container .project-image .title{
     color: #CA0000;
     font-size: 20px;
+    text-align: center;
 }
 
 
@@ -176,7 +184,6 @@ a:active {
     padding: 10px;  /*décalage dans la boîte*/
     box-sizing: content-box;
     border-radius: 10px;
-    /*display: flex;*/
 }
 .contact-info{
     margin-bottom: 10px;
@@ -199,37 +206,33 @@ a:active {
     border: solid #520505 2px;
 }
 .contact-container{
-    display:inline-table;
+    display:inline-flex;
     grid-template-columns: 100%;
     align-items: center;
     justify-content: center;
+    width: 100%;
+}
+.contact .contact-info-content{
+    width: 50%;
+    float: left;
+}
+.contact .contact-social-network{
+    width: 50%;
+    float: right;
 }
 
-/*
-input[type=text], input[type=email]{
-    border: none;
-    outline: none;
-    border-radius: 10px;
-    padding: 5px;
-    width: 300px;
-    height: 25px;
-    background-color: #f8f8f8;
-    font-family: 'Nunito', sans-serif;
+
+
+footer{
+    display: block;
+    background-color: #C65252;
+    color: #fff;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;    
 }
-input::placeholder{
-    color: #CA0000;
+.footer-title{
+    font-size: 40px;
+    font-weight: bold;
 }
-textarea{
-    resize: none;
-    border: none;
-    outline: none;
-    border-radius: 10px;
-    padding: 5px;
-    width: 600px;
-    height: 150px;
-    background-color: #f8f8f8;
-    font-family: 'Nunito', sans-serif;
-}
-textarea::placeholder{
-    color: #CA0000;
-}*/
