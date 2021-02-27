@@ -220,11 +220,16 @@ a:active {
     width: 50%;
     float: right;
 }
+.contact .contact-icon{
+    color: #C65252;
+    font-size: 50px;
+    padding-left: 20px;
+}
 
 
 
 footer{
-    display: block;
+    /*display: block;*/
     background-color: #C65252;
     color: #fff;
     text-align: center;
