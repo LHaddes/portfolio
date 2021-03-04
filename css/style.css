@@ -3,6 +3,7 @@
         /*background-color: #323241;*/
     font-family: 'Nunito', sans-serif;
     font-size: 100%;
+
     }
 }
 
@@ -224,17 +225,17 @@ a:active {
     color: #C65252;
     font-size: 50px;
     padding-left: 20px;
+    padding-top: 20px;
 }
 
 
 
 footer{
-    /*display: block;*/
+
     background-color: #C65252;
     color: #fff;
     text-align: center;
-    padding: 0px;
-    margin: 0px;
+    
     width: 100%;    
 }
 .footer-title{
